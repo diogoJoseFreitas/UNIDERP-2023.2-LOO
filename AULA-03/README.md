@@ -18,10 +18,10 @@
             <tr>
                 <th>RESPOSTA</th>
                 <th>-</th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
+                <th>A</th>
+                <th>A</th>
+                <th>C</th>
+                <th>B</th>
             </tr>
         </tbody>
     </table>
