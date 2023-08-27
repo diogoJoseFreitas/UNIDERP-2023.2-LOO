@@ -1,5 +1,9 @@
 # UNIDERP-2023.2-LOO
-<img src="https://marcas-logos.net/wp-content/uploads/2020/11/Java-logo.png" width=200><br>
+<div>
+<img src="https://blog.uniderp.com.br/wp-content/uploads/2019/11/logo-uniderp-png-4.png" width=300>
+<img src="https://marcas-logos.net/wp-content/uploads/2020/11/Java-logo.png" width=200>
+</div>
+
 ----
 
 ### Liguagem Orientada a Objetos - programação em Java
