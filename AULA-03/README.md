@@ -35,7 +35,7 @@ Crie um programa que atenda a especificação dos diagramas abaixo.<br>
 
 Dentro do pacote [com/uniderp/loo/atividade3](https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/tree/main/AULA-03/atividade/src/main/java/com/uniderp/loo/atividade3) foram implementadas as seguintes classes:
 - Classe Abstrata [BasePessoa](https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/main/AULA-03/atividade/src/main/java/com/uniderp/loo/atividade3/BasePessoa.java):
-<https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/8020207b32d078676e73d63bfb71e64c6d44869a/AULA-03/atividade/src/main/java/com/uniderp/loo/atividade3/BasePessoa.java>
+<https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/8020207b32d078676e73d63bfb71e64c6d44869a/AULA-03/atividade/src/main/java/com/uniderp/loo/atividade3/BasePessoa.java#L1C6-L1C6>
 - Classe [Professor](https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/main/AULA-03/atividade/src/main/java/com/uniderp/loo/atividade3/Professor.java) extendendo BasePessoa
 - Classe [Aluno](https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/main/AULA-03/atividade/src/main/java/com/uniderp/loo/atividade3/Aluno.java) extendendo BasePessoa
 
