@@ -46,7 +46,7 @@ Dentro do pacote [com/uniderp/loo/atividade3](https://github.com/diogoJoseFreita
 
 # Questão 2:
 Considere o trecho de código abaixo.  
-[Link para o código]()
+<https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/55a15b04cf8c6dfe2d8540c9d790ea2d6d4f091c/AULA-03/atividade/questao%2002/questao%2002.java#L1-L51>
 
 Marque a alternativa correta nas afirmações abaixo:  
 ***A) Todas as instâncias de classe podem ser inicializadas corretamente.***  
