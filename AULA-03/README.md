@@ -44,3 +44,18 @@ Dentro do pacote [com/uniderp/loo/atividade3](https://github.com/diogoJoseFreita
 >A Classe Aluno extende BasePessoa, pode ter objetos instanciados a partir dela, seus próprios atributos são privados e  todos os Getters e Setters estão devidamente implementados bem como seus construtores.
 <https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/9e089f0e0516f847aaf0741c80d795ed3e939451/AULA-03/atividade/src/main/java/com/uniderp/loo/atividade3/Aluno.java#L1-L29>
 
+# Questão 2:
+Considere o trecho de código abaixo.  
+[Link para o código]()
+
+Marque a alternativa correta nas afirmações abaixo:  
+***A) Todas as instâncias de classe podem ser inicializadas corretamente.***  
+B) A propriedade setId(), da classe “Classe”, se não existir, não irá gerar erro de 
+compilação.  
+C) É correto considerar todas as classes representadas como instanciáveis, segundo os 
+conceitos de Orientação a Objeto.  
+D) É incorreto afirmar que a classe "Produto" herda atributos e propriedades das outras 
+classes.  
+E) O código está semanticamente incorreto, e compilará sem erros ou avisos.  
+
+Foi considerada a alternativa **A** levando em consideração a ciência de que classes abstratas **não** recebem instanciamento. Em segunda opção a alternativa B poderia estar correta caso existisse a propriedade citada na classe "Classe".
