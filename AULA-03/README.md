@@ -1,4 +1,10 @@
 # Atividade 3:
+|**Aluno:**|Diogo José Freitas de Oliveira|
+|-|-|
+|**RA:**|126641313114|
+|**Curso:**|Engenharia da Copmutação - N (4º Semestre)|
+|**Matéria**|**Linguagem Orientada a Objetos**|
+
 <div style = "display: flex; justify-content: center">
     <table>
         <thead>
