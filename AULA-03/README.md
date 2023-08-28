@@ -34,13 +34,13 @@ Crie um programa que atenda a especificação dos diagramas abaixo.<br>
 > 🗒️**Nota:** As classes indicadas no diagrama UML foram implementadas no projeto Maven [AULA-03\atividade](https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/tree/main/AULA-03/atividade)
 
 Dentro do pacote [com/uniderp/loo/atividade3](https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/tree/main/AULA-03/atividade/src/main/java/com/uniderp/loo/atividade3) foram implementadas as seguintes classes:
-- Classe Abstrata [BasePessoa](https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/main/AULA-03/atividade/src/main/java/com/uniderp/loo/atividade3/BasePessoa.java):
+- Classe Abstrata BasePessoa:
+>A classe BasePessoa é Abstrata, portanto não possui instância de objeto. Seus atributos são todos protegidos para que suas classes filho possam os herdar e todos os Getters e Setters estão devidamente implementados bem como seus construtores.
 <https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/921d17a9e9f5db43495e405ac1bab6e1b1ca44f6/AULA-03/atividade/src/main/java/com/uniderp/loo/atividade3/BasePessoa.java#L1-L78>
-- Classe [Professor](https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/main/AULA-03/atividade/src/main/java/com/uniderp/loo/atividade3/Professor.java) extendendo BasePessoa
-- Classe [Aluno](https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/main/AULA-03/atividade/src/main/java/com/uniderp/loo/atividade3/Aluno.java) extendendo BasePessoa
+- Classe Professor extendendo BasePessoa:
+>A Classe Professor extende BasePessoa, pode ter objetos instanciados a partir dela, seus próprios atributos são privados e  todos os Getters e Setters estão devidamente implementados bem como seus construtores.
+<https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/9e089f0e0516f847aaf0741c80d795ed3e939451/AULA-03/atividade/src/main/java/com/uniderp/loo/atividade3/Professor.java#L1-L29>
+- Classe Aluno extendendo BasePessoa:
+>A Classe Aluno extende BasePessoa, pode ter objetos instanciados a partir dela, seus próprios atributos são privados e  todos os Getters e Setters estão devidamente implementados bem como seus construtores.
+<https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/9e089f0e0516f847aaf0741c80d795ed3e939451/AULA-03/atividade/src/main/java/com/uniderp/loo/atividade3/Aluno.java#L1-L29>
 
-A classe BasePessoa é Abstrata, portanto não possui instância de objeto. Seus atributos são todos protegidos para que suas classes filho possam os herdar e todos os Getters e Setters estão devidamente implementados bem como seus construtores.
-
-A Classe Professor extende BasePessoa, pode ter objetos instanciados a partir dela, seus próprios atributos são privados e  todos os Getters e Setters estão devidamente implementados bem como seus construtores.
-
-A Classe Aluno extende BasePessoa, pode ter objetos instanciados a partir dela, seus próprios atributos são privados e  todos os Getters e Setters estão devidamente implementados bem como seus construtores.
