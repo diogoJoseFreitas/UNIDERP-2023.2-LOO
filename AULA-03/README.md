@@ -37,10 +37,10 @@ Dentro do pacote [com/uniderp/loo/atividade3](https://github.com/diogoJoseFreita
 - Classe Abstrata BasePessoa:
 >A classe BasePessoa é Abstrata, portanto não possui instância de objeto. Seus atributos são todos protegidos para que suas classes filho possam os herdar e todos os Getters e Setters estão devidamente implementados bem como seus construtores.
 <https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/921d17a9e9f5db43495e405ac1bab6e1b1ca44f6/AULA-03/atividade/src/main/java/com/uniderp/loo/atividade3/BasePessoa.java#L1-L78>
-- Classe Professor extendendo BasePessoa:
+- Classe Professor:
 >A Classe Professor extende BasePessoa, pode ter objetos instanciados a partir dela, seus próprios atributos são privados e  todos os Getters e Setters estão devidamente implementados bem como seus construtores.
 <https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/9e089f0e0516f847aaf0741c80d795ed3e939451/AULA-03/atividade/src/main/java/com/uniderp/loo/atividade3/Professor.java#L1-L29>
-- Classe Aluno extendendo BasePessoa:
+- Classe Aluno:
 >A Classe Aluno extende BasePessoa, pode ter objetos instanciados a partir dela, seus próprios atributos são privados e  todos os Getters e Setters estão devidamente implementados bem como seus construtores.
 <https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/9e089f0e0516f847aaf0741c80d795ed3e939451/AULA-03/atividade/src/main/java/com/uniderp/loo/atividade3/Aluno.java#L1-L29>
 
