@@ -11,6 +11,7 @@ public class App {
 
         System.out.println("Aluno: "+ a1.getNome());
         System.out.println("Professor: "+ p1.getNome());
+        
 
     }
 }
