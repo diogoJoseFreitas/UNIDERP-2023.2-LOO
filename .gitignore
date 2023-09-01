@@ -4,6 +4,9 @@
 #JSON files
 *.json
 
+# xml files
+*.xml
+
 # Log file
 *.log
 
