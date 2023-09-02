@@ -7,7 +7,7 @@ Usando o que você aprendeu em POO, analise e otimize o diagrama abaixo,
 criando uma versão corrigida do diagrama, salvando o resultado em PDF.  
 Após  isso,  crie  um  projeto  **Java**  chamado  ProjetoEstagiario,  codifique  as classes que você otimizou, publique no GitHub, e mande o link para o professor.
 
-![UML do Estagiário](docs/uml_do_estagiario.png)
+![UML do Estagiário](docs/uml_do_estagiario.drawio.png)
 
 ## Resposta:
 Ao fazer uma simples análise do diagrama do nosso colega estagiário é possível perceber algumas falhas em diversos pontos, demonstrando pouca prática dos pilares fundamentais de POO (Abstração, Encapsulamento, Herança e Polimorfismo) e vou elencar algumas falhas que pude perceber:
@@ -33,4 +33,5 @@ Considerando que uma classe chamada `BasePessoa` sirva para armazenar dados apen
 
 ## Modelo Corrigido:
 ### < Texto bonitinho que ainda vou fazer>
-![UML Corrigido](docs/uml_corrigido.png)
+![UML Corrigido](docs/uml_corrigido.drawio.png)
+[Link para arquivo pdf](docs/uml_corrigido.drawio.pdf)
