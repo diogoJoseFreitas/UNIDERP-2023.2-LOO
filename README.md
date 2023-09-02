@@ -28,9 +28,9 @@ Professor: Luizão
 ## Atividades:
 <!-- Template para inserir novo: -->
 <!-- > -  Atividade x -> ([Questões]() / [Respostas]())<br> -->
- -  Atividade 1 -> ([Questões](AULA-01/LOO - Atividade 01 - Questões.pdf) / [Respostas](AULA-01/LOO - Atividade 01 - Respostas.pdf))<br>
+ -  Atividade 1 -> ([Questões](https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/main/AULA-01/LOO%20-%20Atividade%2001%20-%20Quest%C3%B5es.pdf) / [Respostas](https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/main/AULA-01/LOO%20-%20Atividade%2001%20-%20Respostas.pdf))<br>
  -  Atividade 2 -> ([Questões](https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/main/AULA-02/LOO%20-%20Atividade%2002%20-%20Quest%C3%B5es.pdf) / [Respostas](https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/main/AULA-02/LOO%20-%20Atividade%2002%20-%20Respostas.pdf))<br>
  -  Atividade 3 -> ([Questões](https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/main/AULA-03/LOO%20-%20Atividade%2003%20-%20Quest%C3%B5es.pdf) / [Respostas](https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/main/AULA-03/README.md))<br>
- -  Atividade 4 -> ([Questões](https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/main/AULA-03/LOO%20-%20Atividade%2003%20-%20Quest%C3%B5es.pdf) / [Respostas](https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/main/AULA-03/README.md))<br>
+ -  Atividade 4 -> ([Questões](https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/main/AULA-04/Atividade/LOO%20-%20Atividade%2004%20-%20Quest%C3%B5es.pdf) / [Respostas](https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/main/AULA-04/Atividade/LOO%20-%20Atividade%2004%20-%20Quest%C3%B5es.pdf))<br>
 
 >🗒️ OBS: Para fins de organização, todos os links inseridos acima são de visualização de PDF ou Markdown presentes em algum diretório interno da branch [main](https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/tree/main) deste repositório.
