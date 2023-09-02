@@ -33,5 +33,5 @@ Considerando que uma classe chamada `BasePessoa` sirva para armazenar dados apen
 
 ## Modelo Corrigido:
 ### < Texto bonitinho que ainda vou fazer>
-![UML Corrigido](docs/uml_corrigido.drawio.png)
-[Link para arquivo pdf](docs/uml_corrigido.drawio.pdf)
+![UML Corrigido](docs/uml_corrigido.drawio.png)  
+[Link para arquivo pdf.](docs/uml_corrigido.drawio.pdf)
