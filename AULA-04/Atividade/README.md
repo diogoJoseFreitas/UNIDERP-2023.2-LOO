@@ -44,20 +44,20 @@ Foi criado o projeto Java [`ProjetoEstagiario`](ProjetoEstagiario) e nele foram 
 
 ### Classe BasePessoa:
 A classe foi instanciada no pacote `com.uniderp.airlines.models`:<br>
-< Visualização da Classe >
+<https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/d499e16ce95427f86c27e90f941d0bdd1fc1d397/AULA-04/Atividade/ProjetoEstagiario/src/com/uniderp/airlines/system/models/BasePessoa.java#L1-L59>
 
 ### Classe FuncionarioTerceirizado:
 A classe foi instanciada no pacote `com.uniderp.airlines.models`:<br>
-< Visualização da Classe >
+<https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/d499e16ce95427f86c27e90f941d0bdd1fc1d397/AULA-04/Atividade/ProjetoEstagiario/src/com/uniderp/airlines/system/models/FuncionarioTerceirizado.java#L1-L22>
 
 ### Classe UsuarioSistema:
 A classe foi instanciada no pacote `com.uniderp.airlines.services`:<br>
-< Visualização da Classe >
+<https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/d499e16ce95427f86c27e90f941d0bdd1fc1d397/AULA-04/Atividade/ProjetoEstagiario/src/com/uniderp/airlines/system/services/UsuarioSistema.java#L1-L29>
 
 ### Classe Funcionario:
 A classe foi instanciada no pacote `com.uniderp.airlines.models`:<br>
-< Visualização da Classe >
+<https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/d499e16ce95427f86c27e90f941d0bdd1fc1d397/AULA-04/Atividade/ProjetoEstagiario/src/com/uniderp/airlines/system/models/Funcionario.java#L1-L29>
 
 ### Classe Passageiro:
 A classe foi instanciada no pacote `com.uniderp.airlines.models`:<br>
-< Visualização da Classe >
+<https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/d499e16ce95427f86c27e90f941d0bdd1fc1d397/AULA-04/Atividade/ProjetoEstagiario/src/com/uniderp/airlines/system/models/Passageiro.java#L1-L30>
