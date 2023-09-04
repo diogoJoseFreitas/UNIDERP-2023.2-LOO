@@ -32,6 +32,32 @@ Considerando que uma classe chamada `BasePessoa` sirva para armazenar dados apen
 ----
 
 ## Modelo Corrigido:
-### < Texto bonitinho que ainda vou fazer>
+### A correção do modelo segue melhor os conceitos de Abstração, Encapsulamento e Herança em comparação ao não finalizado do Estagiário
 ![UML Corrigido](docs/uml_corrigido.drawio.png)  
 [Link para arquivo pdf.](docs/uml_corrigido.drawio.pdf)
+
+----
+## Da Implementação:
+>Crie  um  projeto  **Java**  chamado  `ProjetoEstagiario`,  codifique  as classes que você otimizou e publique no GitHub.
+
+Foi criado o projeto Java [`ProjetoEstagiario`](ProjetoEstagiario) e nele foram implementadas tanto as Classes de acordo com o diagrama corrigido quanto o ambiente principal `App.java` para realização de exemplo de instanciação de objetos.
+
+### Classe BasePessoa:
+A classe foi instanciada no pacote `com.uniderp.airlines.models`:<br>
+< Visualização da Classe >
+
+### Classe FuncionarioTerceirizado:
+A classe foi instanciada no pacote `com.uniderp.airlines.models`:<br>
+< Visualização da Classe >
+
+### Classe UsuarioSistema:
+A classe foi instanciada no pacote `com.uniderp.airlines.services`:<br>
+< Visualização da Classe >
+
+### Classe Funcionario:
+A classe foi instanciada no pacote `com.uniderp.airlines.models`:<br>
+< Visualização da Classe >
+
+### Classe Passageiro:
+A classe foi instanciada no pacote `com.uniderp.airlines.models`:<br>
+< Visualização da Classe >
