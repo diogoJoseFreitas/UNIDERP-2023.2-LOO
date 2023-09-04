@@ -1,9 +1,6 @@
 # Compiled class file
 *.class
 
-#JSON files
-*.json
-
 # xml files
 *.xml
 
