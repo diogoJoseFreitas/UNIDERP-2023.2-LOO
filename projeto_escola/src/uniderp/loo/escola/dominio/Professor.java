@@ -20,6 +20,22 @@ public class Professor extends BaseFuncionario{
                 dataVinculoFinal);
         this.cadeira = cadeira;
     }
+
+    @Override
+    public void imprimir() {
+        System.out.println("Código: " + this.id);
+        System.out.println("Nome: " + this.nome);
+        System.out.println("Endereço: " + this.endereco);
+        System.out.println("Telefone: " + this.telefone);
+        System.out.println("RG: " + this.rg);
+        System.out.println("CPF: " + this.cpf);
+        System.out.println("Data de Nascimento: " + this.dataNascimento);
+        System.out.println("Data de Inserção: " + this.dataInsercao);
+        System.out.println("Cadeira: " + this.cadeira);
+        System.out.println("Cracha: " + this.cracha);
+        System.out.println("Registro: " + this.registro);
+
+    }
     
     
 }
