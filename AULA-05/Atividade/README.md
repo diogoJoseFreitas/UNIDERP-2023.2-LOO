@@ -23,10 +23,14 @@ Observando agora os atributos podemos perceber que a maioria deles podem ser atr
  - Por fim, para justificar a criação de diferentes objetos como Carros, Caminhões, Motocicletas e Ônibus ao invés de generalizar apenas em Veículo Terrestre tomei a liberdade de validar a presença de itens específicos de cada objeto, como sensor de ré para Carro, bagageiro para Motocicleta, articulação sanfonada para Ônibus e a quantidade de engates para Caminhões.
  - Para facilitar visualização dos dados inseridos foi desenvolvida a Interface `IImpressao` que será implementada desde a Classe `BaseVeiculo` e irá sendo sobrescrita com os atributos de cada classe sucessora, permitindo uma implementação mais coesa e organizada.
 
+---
+
 ### Diagrama de Caso de Uso Corrigido:
 A seguir uma possível visualização da abstração das intervenções citadas acima:<br>
 
 ![Visualização do UML](docs/UML%20-%20Veiculos.drawio.png)
+
+---
 
 ### Implementação do código:
 Na pasta [`ProjetoVeiculosEstagiario`](https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/tree/16b863efe00ead3a79bab7d92aa930b4257ef308/AULA-05/Atividade/ProjetoVeiculosEstagiario) foi desenvolvido o projeto da atividade proposta.  
