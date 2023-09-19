@@ -31,6 +31,152 @@ A seguir uma possível visualização da abstração das intervenções citadas 
 Na pasta [`ProjetoVeiculosEstagiario`](https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/tree/8f361a11093e0a6fb8eb96067e9948a8fa268669/AULA-05/Atividade/ProjetoVeiculosEstagiario) está o projeto da atividade proposta.  
 No pacote [`com.uniderp.veiculos`](https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/tree/8f361a11093e0a6fb8eb96067e9948a8fa268669/AULA-05/Atividade/ProjetoVeiculosEstagiario/src/com/uniderp/veiculos) todas as implementações realizadas foram separados por [modelos](https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/tree/8f361a11093e0a6fb8eb96067e9948a8fa268669/AULA-05/Atividade/ProjetoVeiculosEstagiario/src/com/uniderp/veiculos/models) e [serviços](https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/tree/8f361a11093e0a6fb8eb96067e9948a8fa268669/AULA-05/Atividade/ProjetoVeiculosEstagiario/src/com/uniderp/veiculos/services), onde em `models` se encontram todas as classes desenvolvidas em acordo com o Diagrama e em `services` se encontra apenas a interface `IImpressão`.
 
+<table>
+<thead>
+  <tr>
+    <th style = "text-align:center" colspan="2">RESUMO</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>
+    Interface
+    <a href = 'https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/2dfcc45e7add985a779035b9eedcf8c02a76f933/AULA-05/Atividade/ProjetoVeiculosEstagiario/src/com/uniderp/veiculos/services/iImpressao.java#L1-L5'> IImpressao</a>
+    </td>
+    <td>Interface para exigir o uso da função imprimir().</td>
+  </tr>
+  <tr>
+    <td>
+    Classe
+    <a href = 'https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/2dfcc45e7add985a779035b9eedcf8c02a76f933/AULA-05/Atividade/ProjetoVeiculosEstagiario/src/com/uniderp/veiculos/models/BaseVeiculo.java#L1-L113'> BaseVeiculo</a>
+    </td>
+    <td>Abstrata, implementa e sobrescreve IImpressao.</td>
+  </tr>
+  <tr>
+    <td>
+    Classe
+    <a href = 'https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/2dfcc45e7add985a779035b9eedcf8c02a76f933/AULA-05/Atividade/ProjetoVeiculosEstagiario/src/com/uniderp/veiculos/models/ModeloVeiculo.java#L1-L148'> ModeloVeiculo</a>
+    </td>
+    <td>Real, implementa e sobrescreve IImpressao.</td>
+  </tr>
+  <tr>
+    <td>
+    Classe
+    <a href = 'https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/2dfcc45e7add985a779035b9eedcf8c02a76f933/AULA-05/Atividade/ProjetoVeiculosEstagiario/src/com/uniderp/veiculos/models/VeiculosAeros/BaseVeiculoAereo.java#L1-L31'> BaseVeiculoAereo</a>
+    </td>
+    <td>Abstrata, estende BaseVeiculo, sobrescreve IImpressao.</td>
+  </tr>
+  <tr>
+    <td>
+    Classe
+    <a href = ''> BaseVeiculoTerrestre</a>
+    </td>
+    <td>Abstrata, estende BaseVeiculo, sobrescreve IImpressao.</td>
+  </tr>
+  <tr>
+    <td>
+    Classe
+    <a href = 'https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/2dfcc45e7add985a779035b9eedcf8c02a76f933/AULA-05/Atividade/ProjetoVeiculosEstagiario/src/com/uniderp/veiculos/models/VeiculosAeros/Aviao.java#L1-L30'> Aviao</a>
+    </td>
+    <td>Abstrata, estende BaseVeiculoAereo, sobrescreve IImpressao.</td>
+  </tr>
+  <tr>
+    <td>
+    Classe
+    <a href = 'https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/2dfcc45e7add985a779035b9eedcf8c02a76f933/AULA-05/Atividade/ProjetoVeiculosEstagiario/src/com/uniderp/veiculos/models/VeiculosTerrestres/Caminhao.java#L1-L30'> Caminhao</a>
+    </td>
+    <td>Abstrata, estende BaseVeiculoTerrestre, sobrescreve IImpressao.</td>
+  </tr>
+  <tr>
+    <td>
+    Classe
+    <a href = 'https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/2dfcc45e7add985a779035b9eedcf8c02a76f933/AULA-05/Atividade/ProjetoVeiculosEstagiario/src/com/uniderp/veiculos/models/VeiculosTerrestres/Carro.java#L1-L30'> Carro</a>
+    </td>
+    <td>Abstrata, estende BaseVeiculoTerrestre, sobrescreve IImpressao.</td>
+  </tr>
+  <tr>
+    <td>
+    Classe
+    <a href = 'https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/2dfcc45e7add985a779035b9eedcf8c02a76f933/AULA-05/Atividade/ProjetoVeiculosEstagiario/src/com/uniderp/veiculos/models/VeiculosTerrestres/Motocicleta.java#L1-L30'> Motocicleta</a>
+    </td>
+    <td>Abstrata, estende BaseVeiculoTerrestre, sobrescreve IImpressao.</td>
+  </tr>
+  <tr>
+    <td>
+    Classe
+    <a href = 'https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/2dfcc45e7add985a779035b9eedcf8c02a76f933/AULA-05/Atividade/ProjetoVeiculosEstagiario/src/com/uniderp/veiculos/models/VeiculosTerrestres/Onibus.java#L1-L30'> Onibus</a>
+    </td>
+    <td>Abstrata, estende BaseVeiculoTerrestre, sobrescreve IImpressao.</td>
+  </tr>
+  <tr>
+    <td>
+    Classe
+    <a href = 'https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/2dfcc45e7add985a779035b9eedcf8c02a76f933/AULA-05/Atividade/ProjetoVeiculosEstagiario/src/App.java#L1-L157'> App</a>
+    </td>
+    <td>Modelo de aplicação da execução</td>
+  </tr>
+</tbody>
+</table>
+
+---
+
 - Interface `IImpressão`:
   - Contempla apenas a exigência da implementação da função `imprimir()` que será sobrescrita em cada Classe implementada para imprimir seus atributos juntos aos de sua Classe superior.<br>
- <https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/0414d4eaf6a3e6fa30363811210f05f1156fd001/AULA-05/Atividade/ProjetoVeiculosEstagiario/src/com/uniderp/veiculos/services/iImpressao.java#L1-L5>
+ <https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/2dfcc45e7add985a779035b9eedcf8c02a76f933/AULA-05/Atividade/ProjetoVeiculosEstagiario/src/com/uniderp/veiculos/services/iImpressao.java#L1-L5>
+
+---
+
+- Classe `BaseVeiculo`:
+  - Implementa `IImpressao` e um de seus atributos é um objeto do tipo `ModeloVeiculo`, também implementado no pacote de modelos, é abstrata e sobrescreve o método `imprimir()` para já informar os dados pertencentes a esta Classe.<br>
+  <https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/2dfcc45e7add985a779035b9eedcf8c02a76f933/AULA-05/Atividade/ProjetoVeiculosEstagiario/src/com/uniderp/veiculos/models/BaseVeiculo.java#L1-L113>
+
+---
+
+- Classe `ModeloVeiculo`:
+  - Serve para armazenar atributos que tendem a ser iguais entre veículos similares, ou seja, o modelo de um veículo define certas características deste assim como a Classe define as propriedades possíveis para suas instâncias.
+  - Implementa `IImpressao` e implementa método `imprimir()` para exibir os dados nela inseridos e é uma Classe Real, tendo em vista que deve ser instanciada para ser inserida em objetos herdeiros de `BaseVeiculo`.
+  - Exemplo de Caso de Uso (não implementado): Criação de uma tabela secundária em um FakeDB para simular uma relação entre tabelas que pode otimizar armazenamento e evitar duplicação de Dados.<br>
+  <https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/2dfcc45e7add985a779035b9eedcf8c02a76f933/AULA-05/Atividade/ProjetoVeiculosEstagiario/src/com/uniderp/veiculos/models/ModeloVeiculo.java#L1-L148>
+
+---
+
+- Classe `BaseVeiculoAereo`:
+  - Armazena documentação válida e necessária para registro de um veículo Aéreo, `registroAeronaltico`.
+  - Sobrescreve método `imprimir()` para que exiba também seus dados, Classe Abstrata.<br>
+  <https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/2dfcc45e7add985a779035b9eedcf8c02a76f933/AULA-05/Atividade/ProjetoVeiculosEstagiario/src/com/uniderp/veiculos/models/VeiculosAeros/BaseVeiculoAereo.java#L1-L31>
+
+---
+
+- Classe `BaseVeiculoTerrestre`:
+  - Contém atribiutos comuns a todos e apenas a Veículos Terrestres, contém também função para validar o código RENAVAM do veículo.
+  - Sobrescreve `imprimir()` para exibir também seus dados, Classe abstrata, extende `BaseVeiculo`.
+  
+---
+
+- Classe `Aviao`:
+  - Sobrescreve `imprimir()` para exibir também seus dados, Classe Real, extende `BaseVeiculoAereo`.<br>
+  <https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/2dfcc45e7add985a779035b9eedcf8c02a76f933/AULA-05/Atividade/ProjetoVeiculosEstagiario/src/com/uniderp/veiculos/models/VeiculosAeros/Aviao.java#L1-L30>
+  
+---
+
+- Classe `Caminhao`:
+  - Sobrescreve `imprimir()` para exibir também seus dados, Classe Real, extende `BaseVeiculoTerrestre`.<br>
+  <https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/2dfcc45e7add985a779035b9eedcf8c02a76f933/AULA-05/Atividade/ProjetoVeiculosEstagiario/src/com/uniderp/veiculos/models/VeiculosTerrestres/Caminhao.java#L1-L30>
+  
+---
+
+- Classe `Carro`:
+  - Sobrescreve `imprimir()` para exibir também seus dados, Classe Real, extende `BaseVeiculoTerrestre`.<br>
+  <https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/2dfcc45e7add985a779035b9eedcf8c02a76f933/AULA-05/Atividade/ProjetoVeiculosEstagiario/src/com/uniderp/veiculos/models/VeiculosTerrestres/Carro.java#L1-L30>
+  
+---
+
+- Classe `Motocicleta`:
+  - Sobrescreve `imprimir()` para exibir também seus dados, Classe Real, extende `BaseVeiculoTerrestre`.<br>
+  <https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/2dfcc45e7add985a779035b9eedcf8c02a76f933/AULA-05/Atividade/ProjetoVeiculosEstagiario/src/com/uniderp/veiculos/models/VeiculosTerrestres/Motocicleta.java#L1-L30>
+  
+---
+
+- Classe `Onibus`:
+  - Sobrescreve `imprimir()` para exibir também seus dados, Classe Real, extende `BaseVeiculoTerrestre`.<br>
+  <https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/2dfcc45e7add985a779035b9eedcf8c02a76f933/AULA-05/Atividade/ProjetoVeiculosEstagiario/src/com/uniderp/veiculos/models/VeiculosTerrestres/Onibus.java#L1-L30>
