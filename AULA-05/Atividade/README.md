@@ -180,3 +180,9 @@ No pacote [`com.uniderp.veiculos`](https://github.com/diogoJoseFreitas/UNIDERP-2
 - Classe `Onibus`:
   - Sobrescreve `imprimir()` para exibir também seus dados, Classe Real, extende `BaseVeiculoTerrestre`.<br>
   <https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/2dfcc45e7add985a779035b9eedcf8c02a76f933/AULA-05/Atividade/ProjetoVeiculosEstagiario/src/com/uniderp/veiculos/models/VeiculosTerrestres/Onibus.java#L1-L30>
+  
+---
+
+- Classe `App`:
+  - Exemplo de execução do código, possui exemplo de reutilização de `ModeloVeiculo` em `aviao01` e `aviao02`.<br>
+  <https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/2dfcc45e7add985a779035b9eedcf8c02a76f933/AULA-05/Atividade/ProjetoVeiculosEstagiario/src/App.java#L1-L157>
