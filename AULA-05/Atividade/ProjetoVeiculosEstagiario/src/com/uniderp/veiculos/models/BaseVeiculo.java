@@ -1,8 +1,8 @@
 package com.uniderp.veiculos.models;
 
-import com.uniderp.veiculos.services.iImpressao;
+import com.uniderp.veiculos.services.IImpressao;
 
-public abstract class BaseVeiculo implements iImpressao{
+public abstract class BaseVeiculo implements IImpressao{
     protected int codigo;
     protected String nome;
     protected ModeloVeiculo modelo;

@@ -1,5 +1,5 @@
 package com.uniderp.veiculos.services;
 
-public interface iImpressao {
+public interface IImpressao {
     void imprimir();
 }
