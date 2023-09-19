@@ -148,8 +148,9 @@ No pacote [`com.uniderp.veiculos`](https://github.com/diogoJoseFreitas/UNIDERP-2
 ---
 
 - Classe `BaseVeiculoTerrestre`:
-  - Contém atribiutos comuns a todos e apenas a Veículos Terrestres, contém também função para validar o código RENAVAM do veículo.
-  - Sobrescreve `imprimir()` para exibir também seus dados, Classe abstrata, extende `BaseVeiculo`.
+  - Contém atribiutos comuns a todos e apenas a Veículos Terrestres.
+  - Sobrescreve `imprimir()` para exibir também seus dados, Classe abstrata, extende `BaseVeiculo`.<br>
+  <>
   
 ---
 
@@ -185,4 +186,4 @@ No pacote [`com.uniderp.veiculos`](https://github.com/diogoJoseFreitas/UNIDERP-2
 
 - Classe `App`:
   - Exemplo de execução do código, possui exemplo de reutilização de `ModeloVeiculo` em `aviao01` e `aviao02`.<br>
-  <https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/2dfcc45e7add985a779035b9eedcf8c02a76f933/AULA-05/Atividade/ProjetoVeiculosEstagiario/src/App.java#L1-L157>
+  <>

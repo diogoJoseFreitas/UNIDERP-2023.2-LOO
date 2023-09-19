@@ -130,7 +130,7 @@ public class App {
             "XYZ987654", 
             "XYZ-5678", 
             6, 
-            "987654321", 
+            "95312219403",
             2);
         padraoImpressao(caminhao01);
 
@@ -148,7 +148,7 @@ public class App {
             "DEF654321", 
             "DEF-4321", 
             2, 
-            "456789012", 
+            "97588855114",
             true);
         padraoImpressao(motocicleta01);
 
