@@ -18,7 +18,7 @@ Observando agora os atributos podemos perceber que a maioria deles podem ser atr
  - Por boas práticas, toda Classe pai (abstrata) deve conter no início de seu nome a palavra "Base", portanto a Classe `Veiculo` pasará a ser `BaseVeiculo`.
  - `BaseVeiculo` irá conter todos os atributos comuns entre todas as Classes reais.
  - Por boas práticas e para manter a coesão do código, todos os atributos que envolvem algum tipo quantitativo de dado deverá conter a palavra `qtde` no seu começo, facilitando interpretações futuras.
- - Para aumentar a usabilidade do código, foi implementada uma Classe Real `ModeloVeiculo` contendo atributos comuns a veículos diferentes mas de mesmo modelo, como `anoModelo`, `marca` e entre outros (uso demosntrado em [App.java](https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/main/AULA-05/Atividade/ProjetoVeiculosEstagiario/src/App.java)).
+ - Para aumentar a usabilidade do código, foi implementada uma Classe Real `ModeloVeiculo` contendo atributos comuns a veículos diferentes mas de mesmo modelo, como `anoModelo`, `marca` e entre outros (uso demosntrado em [App.java](https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/e08e1519deb62d31680954760fc36d319bfbb400/AULA-05/Atividade/ProjetoVeiculosEstagiario/src/App.java#L1-L157)).
  - Os atributos comuns a apenas algumas Classes Reais demonstram uma separação intuitiva entre veículos aéreos e terrestres, onde atributos como `placa`, `chassi`, `codigoRenavam`, entre outros se enquadram apenas em veículos terrestres, criando assim a Classe Abstrata `BaseVeiculoTerrestre` e por organização foi implementada também a Classe Abstrata `BaseVeiculoAereo` contendo a documentação devida de veículos aéreos (atriburo `registroAeronaltico`).
  - Por fim, para justificar a criação de diferentes objetos como Carros, Caminhões, Motocicletas e Ônibus ao invés de generalizar apenas em Veículo Terrestre tomei a liberdade de validar a presença de itens específicos de cada objeto, como sensor de ré para Carro, bagageiro para Motocicleta, articulação em sanfona para Ônibus e a quantidade de engates para Caminhões.
  - Para facilitar visualização dos dados inseridos foi desenvolvida a Interface `iImpressao` que será implementada desde a Classe `BaseVeiculo` e irá sendo sobrescrita com os atributos de cada classe sucessora, permitindo uma implementação mais coesa e organizada.
@@ -69,7 +69,7 @@ No pacote [`com.uniderp.veiculos`](https://github.com/diogoJoseFreitas/UNIDERP-2
   <tr>
     <td>
     Classe
-    <a href = ''> BaseVeiculoTerrestre</a>
+    <a href = 'https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/e08e1519deb62d31680954760fc36d319bfbb400/AULA-05/Atividade/ProjetoVeiculosEstagiario/src/com/uniderp/veiculos/models/VeiculosTerrestres/BaseVeiculoTerrestre.java#L1-L53'> BaseVeiculoTerrestre</a>
     </td>
     <td>Abstrata, estende BaseVeiculo, sobrescreve IImpressao.</td>
   </tr>
@@ -111,7 +111,7 @@ No pacote [`com.uniderp.veiculos`](https://github.com/diogoJoseFreitas/UNIDERP-2
   <tr>
     <td>
     Classe
-    <a href = 'https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/2dfcc45e7add985a779035b9eedcf8c02a76f933/AULA-05/Atividade/ProjetoVeiculosEstagiario/src/App.java#L1-L157'> App</a>
+    <a href = 'https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/e08e1519deb62d31680954760fc36d319bfbb400/AULA-05/Atividade/ProjetoVeiculosEstagiario/src/App.java#L1-L157'> App</a>
     </td>
     <td>Modelo de aplicação da execução</td>
   </tr>
@@ -150,7 +150,7 @@ No pacote [`com.uniderp.veiculos`](https://github.com/diogoJoseFreitas/UNIDERP-2
 - Classe `BaseVeiculoTerrestre`:
   - Contém atribiutos comuns a todos e apenas a Veículos Terrestres.
   - Sobrescreve `imprimir()` para exibir também seus dados, Classe abstrata, extende `BaseVeiculo`.<br>
-  <>
+  <https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/e08e1519deb62d31680954760fc36d319bfbb400/AULA-05/Atividade/ProjetoVeiculosEstagiario/src/com/uniderp/veiculos/models/VeiculosTerrestres/BaseVeiculoTerrestre.java#L1-L53>
   
 ---
 
@@ -186,4 +186,4 @@ No pacote [`com.uniderp.veiculos`](https://github.com/diogoJoseFreitas/UNIDERP-2
 
 - Classe `App`:
   - Exemplo de execução do código, possui exemplo de reutilização de `ModeloVeiculo` em `aviao01` e `aviao02`.<br>
-  <>
+  <https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/e08e1519deb62d31680954760fc36d319bfbb400/AULA-05/Atividade/ProjetoVeiculosEstagiario/src/App.java#L1-L157>
