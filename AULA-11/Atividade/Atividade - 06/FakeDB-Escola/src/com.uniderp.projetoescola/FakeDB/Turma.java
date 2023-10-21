@@ -16,10 +16,10 @@ public class Turma {
     private void insereAluno(){
         int codigo;
         String nome;
-        System.out.println("Informe o código do Aluno: ");
-        codigo = sc.nextInt();
         System.out.println("Informe o Nome do Aluno: ");
         nome = sc.nextLine();
+        System.out.println("Informe o código do Aluno: ");
+        codigo = sc.nextInt();
         this.alunos.add(new Aluno(codigo, nome));
     }
 }
