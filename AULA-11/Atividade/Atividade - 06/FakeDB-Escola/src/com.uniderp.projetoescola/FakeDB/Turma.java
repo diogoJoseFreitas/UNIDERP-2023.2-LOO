@@ -28,10 +28,12 @@ public class Turma {
     }
 
     private void listarAlunos(){
-
+        for (Aluno aluno : alunos) {
+            System.out.println(aluno);
+        }
     }
 
     private void selecionaAluno(){
-        
+
     }
 }
