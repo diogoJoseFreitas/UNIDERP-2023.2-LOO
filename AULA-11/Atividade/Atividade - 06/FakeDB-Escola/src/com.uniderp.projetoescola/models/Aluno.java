@@ -57,6 +57,10 @@ public class Aluno {
         this.codigo = codigo;
         this.nome = nome;
     }
+
+    private void atualizaMedia(){
+        this.media = (((notaA1+notaP1)/2) + ((notaA2+notaP2)/2))/2;
+    }
     
     
 }

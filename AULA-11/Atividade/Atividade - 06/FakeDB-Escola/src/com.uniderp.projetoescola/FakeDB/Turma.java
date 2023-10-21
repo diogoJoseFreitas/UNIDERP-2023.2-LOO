@@ -22,4 +22,16 @@ public class Turma {
         codigo = sc.nextInt();
         this.alunos.add(new Aluno(codigo, nome));
     }
+
+    private void alteraNome(){
+
+    }
+
+    private void listarAlunos(){
+
+    }
+
+    private void selecionaAluno(){
+        
+    }
 }
