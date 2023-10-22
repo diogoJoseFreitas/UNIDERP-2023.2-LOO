@@ -88,7 +88,7 @@ public class Aluno {
     public void imprime(){
         System.out.println("| "+this.notaA1+" | "+this.notaP1+" | "+this.notaA2+" | "+this.notaP2+" | "+this.media+" | "+this.situacao+" | ");
     }
-    public void stauts(){
+    public void status(){
         System.out.println("Mostrando notas do Aluno: "+ this.nome);
         System.out.println("| A1 | P1 | A2 | P2 | MEDIA | SITUACAO |");
         this.imprime();
@@ -105,7 +105,7 @@ public class Aluno {
         do {
             System.out.println("\n\nAluno: "+this.nome);
             System.out.println("Notas:");
-            this.stauts();
+            this.status();
             System.out.println(menu);
             opcao = this.sc.nextInt();
             switch (opcao) {
