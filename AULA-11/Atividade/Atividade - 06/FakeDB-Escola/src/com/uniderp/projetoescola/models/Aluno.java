@@ -86,11 +86,10 @@ public class Aluno {
         this.nome = nome;
     }
     public void imprime(){
-        System.out.println("| "+this.notaA1+" | "+this.notaP1+" | "+this.notaA2+" | "+this.notaP2+" | "+this.media+" | "+this.situacao+" | ");
+        System.out.println("| "+this.notaA1+" | "+this.notaP1+" | "+this.notaA2+" | "+this.notaP2+" | "+this.media+" | "+this.situacao+" | "+this.nome+" |");
     }
     public void status(){
-        System.out.println("Mostrando notas do Aluno: "+ this.nome);
-        System.out.println("| A1 | P1 | A2 | P2 | MEDIA | SITUACAO |");
+        System.out.println("| A1 | P1 | A2 | P2 | MEDIA | SITUACAO | NOME |");
         this.imprime();
     }
     public void menuAlterarNotas(){

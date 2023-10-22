@@ -121,7 +121,7 @@ public class Turma {
                     
                     break;
                 case 2:
-                    System.out.println("| A1 | P1 | A2 | P2 | MEDIA | SITUACAO |");
+                    System.out.println("| A1 | P1 | A2 | P2 | MEDIA | SITUACAO | NOME |");
                     for (Aluno aluno : alunos) {
                         aluno.imprime();
                     }
