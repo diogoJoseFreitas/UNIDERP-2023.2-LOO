@@ -1,7 +1,9 @@
 package com.uniderp.projetoescola.models;
 
-public class Aluno {
+import java.util.Scanner;
 
+public class Aluno {
+    private Scanner sc;
     private int codigo;
     private String nome;
     private double notaA1;
@@ -9,8 +11,22 @@ public class Aluno {
     private double notaA2;
     private double notaP2;
     private double media;
+    private String situacao;
+
     private void atualizaMedia(){
         this.media = (((notaA1+notaP1)/2) + ((notaA2+notaP2)/2))/2;
+        if (this.media>=6) {
+            this.situacao = "Aprovado";
+        } else {
+            this.situacao = "Reprovado";
+        }
+    }
+
+    public String getSituacao() {
+        return situacao;
+    }
+    public void setSituacao(String situcao) {
+        this.situacao = situcao;
     }
     public int getCodigo() {
         return codigo;
@@ -62,10 +78,56 @@ public class Aluno {
         this.atualizaMedia();
     }
     public Aluno() {
+        sc = new Scanner(System.in);
     }
     public Aluno(int codigo, String nome) {
         this.codigo = codigo;
         this.nome = nome;
+    }
+    public void menuAlterarNotas(){
+        String menu = "\n\n"+
+        "1- Alterar nota A1\n"+ 
+        "2- Alterar nota P1\n"+
+        "3- Alterar nota A2\n"+
+        "4- Alterar nota P2\n"+
+        "5- Calcular Media\n"+
+        "9- Voltar\n\n";
+        int opcao;
+        do {
+            System.out.println(menu);
+            opcao = sc.nextInt();
+            switch (opcao) {
+                case 1:
+                    System.out.println("Insira nota A1: ");
+                    setNotaA1(sc.nextDouble());
+                    break;
+                case 2:
+                    System.out.println("Insira nota P1: ");
+                    setNotaP1(sc.nextDouble());
+                    break;
+                case 3:
+                    System.out.println("Insira nota A2: ");
+                    setNotaA2(sc.nextDouble());
+                    break;
+                case 4:
+                    System.out.println("Insira nota P2: ");
+                    setNotaP2(sc.nextDouble());
+                    break;
+                case 5:
+                    System.out.println("Calculando média...");
+                    this.atualizaMedia();
+                    System.out.println("Média Final: "+ this.media);
+                    System.out.println("Situação: " + this.situacao);
+                    break;
+                case 9:
+                    System.out.println("\nVoltando...");
+                    break;            
+                default:
+                    System.out.println("\nOpcao invalida");                    
+                    break;
+            }
+        } while (opcao != 9);
+        
     }
     @Override
     public String toString() {
