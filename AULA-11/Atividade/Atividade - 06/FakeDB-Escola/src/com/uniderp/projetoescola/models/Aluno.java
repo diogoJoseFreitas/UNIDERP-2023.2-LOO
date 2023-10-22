@@ -81,6 +81,7 @@ public class Aluno {
         sc = new Scanner(System.in);
     }
     public Aluno(int codigo, String nome) {
+        sc = new Scanner(System.in);
         this.codigo = codigo;
         this.nome = nome;
     }
@@ -94,30 +95,35 @@ public class Aluno {
         "9- Voltar\n\n";
         int opcao;
         do {
+            System.out.println("\n\nAluno: "+this.nome);
+            System.out.println("Notas:");
+            System.out.println("| A1 | P1 | A2 | P2 | MEDIA | SITUACAO |");
+            this.imprime();
             System.out.println(menu);
-            opcao = sc.nextInt();
+            opcao = this.sc.nextInt();
             switch (opcao) {
                 case 1:
                     System.out.println("Insira nota A1: ");
-                    setNotaA1(sc.nextDouble());
+                    setNotaA1(this.sc.nextDouble());
                     break;
                 case 2:
                     System.out.println("Insira nota P1: ");
-                    setNotaP1(sc.nextDouble());
+                    setNotaP1(this.sc.nextDouble());
                     break;
                 case 3:
                     System.out.println("Insira nota A2: ");
-                    setNotaA2(sc.nextDouble());
+                    setNotaA2(this.sc.nextDouble());
                     break;
                 case 4:
                     System.out.println("Insira nota P2: ");
-                    setNotaP2(sc.nextDouble());
+                    setNotaP2(this.sc.nextDouble());
                     break;
                 case 5:
                     System.out.println("Calculando média...");
                     this.atualizaMedia();
                     System.out.println("Média Final: "+ this.media);
                     System.out.println("Situação: " + this.situacao);
+                    System.out.println("\n");
                     break;
                 case 9:
                     System.out.println("\nVoltando...");
@@ -131,7 +137,10 @@ public class Aluno {
     }
     @Override
     public String toString() {
-        return "|codigo = " + codigo + " | nome = " + nome + " |";
+        return "| " + codigo + " | " + nome + " |";
+    }
+    public void imprime(){
+        System.out.println("| "+this.notaA1+" | "+this.notaP1+" | "+this.notaA2+" | "+this.notaP2+" | "+this.media+" | "+this.situacao+" | ");
     }
     
     
