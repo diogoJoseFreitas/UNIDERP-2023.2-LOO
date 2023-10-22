@@ -26,6 +26,9 @@ public class Turma {
     private void alteraNome(){
 
     }
+    private void removerAluno(){
+
+    }
 
     private void listarAlunos(){
         for (Aluno aluno : alunos) {
@@ -33,7 +36,47 @@ public class Turma {
         }
     }
 
-    private void selecionaAluno(){
+    private void selecionarAluno(){
 
+    }
+    private void menuGerenciarAlunos(){
+        int opcao;
+        String menu = "\n\n"+
+        "1- Adicionar Aluno\n"+
+        "2- Alterar Nome do Aluno\n"+
+        "3- Excluir aluno\n"+
+        "4- Lista Todos\n"+
+        "5- Selecionar um Aluno da Lista, para\n"+
+        "9- Voltar\n\n";
+        do {
+        
+            System.out.println(menu);
+            opcao = sc.nextInt();
+            switch (opcao) {
+                case 1:
+                    this.insereAluno();
+                    break;
+                case 2:
+                    this.alteraNome();
+                    break;
+                case 3:
+                    this.removerAluno();
+                    break;
+                case 4:
+                    this.listarAlunos();
+                    break;
+                case 5:
+                    this.selecionarAluno();
+                    break;
+                case 9:
+                    System.out.println("\nVoltando...");
+                    break;
+                    
+                    default:
+                    System.out.println("\nOpcao invalida");
+                    break;
+                 }
+         } while (opcao != 9);
+        
     }
 }
