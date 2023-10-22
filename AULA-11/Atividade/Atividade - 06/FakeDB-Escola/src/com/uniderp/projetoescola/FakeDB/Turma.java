@@ -106,5 +106,35 @@ public class Turma {
     }
     public void menuRendimentoEscolar(){
         System.out.println("Exibindo menu...");
+        int opcao;
+        String menu = "\n\n"+
+        "1- Mostrar nota de aluno\n"+
+        "2- Mostrar media da turma\n"+
+        "9- Voltar\n\n";
+        do {
+            System.out.println(menu);
+            opcao = sc.nextInt();
+            switch (opcao) {
+                case 1:
+                    int id = getId();    
+                    this.alunos.get(id).status();
+                    
+                    break;
+                case 2:
+                    System.out.println("| A1 | P1 | A2 | P2 | MEDIA | SITUACAO |");
+                    for (Aluno aluno : alunos) {
+                        aluno.imprime();
+                    }
+                    break;
+                case 9: 
+                    System.out.println("\nVoltando...");
+                    break;
+                    
+                default:
+                    System.out.println("\nOpcao invalida");
+                    break;
+            }
+
+        } while (opcao != 9);
     }
 }
