@@ -85,6 +85,14 @@ public class Aluno {
         this.codigo = codigo;
         this.nome = nome;
     }
+    public void imprime(){
+        System.out.println("| "+this.notaA1+" | "+this.notaP1+" | "+this.notaA2+" | "+this.notaP2+" | "+this.media+" | "+this.situacao+" | ");
+    }
+    public void stauts(){
+        System.out.println("Mostrando notas do Aluno: "+ this.nome);
+        System.out.println("| A1 | P1 | A2 | P2 | MEDIA | SITUACAO |");
+        this.imprime();
+    }
     public void menuAlterarNotas(){
         String menu = "\n\n"+
         "1- Alterar nota A1\n"+ 
@@ -97,8 +105,7 @@ public class Aluno {
         do {
             System.out.println("\n\nAluno: "+this.nome);
             System.out.println("Notas:");
-            System.out.println("| A1 | P1 | A2 | P2 | MEDIA | SITUACAO |");
-            this.imprime();
+            this.stauts();
             System.out.println(menu);
             opcao = this.sc.nextInt();
             switch (opcao) {
@@ -138,9 +145,6 @@ public class Aluno {
     @Override
     public String toString() {
         return "| " + codigo + " | " + nome + " |";
-    }
-    public void imprime(){
-        System.out.println("| "+this.notaA1+" | "+this.notaP1+" | "+this.notaA2+" | "+this.notaP2+" | "+this.media+" | "+this.situacao+" | ");
     }
     
     
