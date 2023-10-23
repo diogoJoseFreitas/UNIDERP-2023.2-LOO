@@ -1,27 +1,27 @@
 <mxfile host="65bd71144e">
     <diagram id="NG6BX41NR-hwoTfeGqQm" name="Page-1">
-        <mxGraphModel dx="990" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="1746" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="14" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.012;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2" target="5">
+                <mxCell id="14" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.012;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" source="2" target="5" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Aluno&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- codigo: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- nome: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- notaA1: double&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- notaP1: double&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- notaA2: double&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- notaP2: double&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- media: double&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ atualizaMedia(): void&lt;br&gt;&lt;/p&gt;&amp;nbsp;+ menuAluno(): void" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+                <mxCell id="2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Aluno&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- codigo: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- nome: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- notaA1: double&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- notaP1: double&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- notaA2: double&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- notaP2: double&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- media: double&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ atualizaMedia(): void&lt;br&gt;&lt;/p&gt;&amp;nbsp;+ menuAluno(): void" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
                     <mxGeometry x="30" y="25" width="140" height="233" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="Menu - Main:&lt;br&gt;1- Gerenciar Alunos&lt;br&gt;2- Rendimento Escolar&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;9- Sair&lt;/span&gt;&lt;/div&gt;" style="html=1;dropTarget=0;align=left;verticalAlign=middle;" vertex="1" parent="1">
+                <mxCell id="3" value="Menu - Main:&lt;br&gt;1- Gerenciar Alunos&lt;br&gt;2- Rendimento Escolar&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;9- Sair&lt;/span&gt;&lt;/div&gt;" style="html=1;dropTarget=0;align=left;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
                     <mxGeometry x="585" y="25" width="180" height="92" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="3">
+                <mxCell id="4" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="3" vertex="1">
                     <mxGeometry x="1" width="20" height="22" relative="1" as="geometry">
                         <mxPoint x="-27" y="7" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;FakeDB Turma&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- alunos: ArrayList&amp;lt;Aluno&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- insereAluno(): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- removeAluno(): void&lt;/p&gt;&amp;nbsp;- listaAlunos(): void&lt;br&gt;&amp;nbsp;- selecionaAluno(): int&lt;br&gt;&amp;nbsp;- menuRendimentoEscolar(): void&lt;br&gt;&amp;nbsp;- menuGerenciarAlunos(): void" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+                <mxCell id="5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;FakeDB Turma&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- alunos: ArrayList&amp;lt;Aluno&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- insereAluno(): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- removeAluno(): void&lt;/p&gt;&amp;nbsp;- listaAlunos(): void&lt;br&gt;&amp;nbsp;- selecionaAluno(): int&lt;br&gt;&amp;nbsp;- menuRendimentoEscolar(): void&lt;br&gt;&amp;nbsp;- menuGerenciarAlunos(): void" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
                     <mxGeometry x="280" y="56" width="190" height="240" as="geometry"/>
                 </mxCell>
-                <mxCell id="15" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=-0.017;entryY=0.418;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="6" target="3">
+                <mxCell id="15" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=-0.017;entryY=0.418;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" source="6" target="3" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="530" y="305"/>
@@ -29,15 +29,15 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="6" value="Menu - Gerenciar Alunos:&lt;br&gt;1- Adicionar Aluno (Código e Nome)&lt;br&gt;2- Alterar Nome de Aluno&lt;br&gt;3- Excluir Aluno&lt;br&gt;4- Listar Todos&lt;br&gt;5- Opções de alteração de nota (Menu de Aluno)&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;9- Voltar&lt;/span&gt;&lt;/div&gt;" style="html=1;dropTarget=0;align=left;verticalAlign=middle;" vertex="1" parent="1">
+                <mxCell id="6" value="Menu - Gerenciar Alunos:&lt;br&gt;1- Adicionar Aluno (Código e Nome)&lt;br&gt;2- Alterar Nome de Aluno&lt;br&gt;3- Excluir Aluno&lt;br&gt;4- Listar Todos&lt;br&gt;5- Opções de alteração de nota (Menu de Aluno)&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;9- Voltar&lt;/span&gt;&lt;/div&gt;" style="html=1;dropTarget=0;align=left;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
                     <mxGeometry x="585" y="240" width="270" height="130" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="6">
+                <mxCell id="7" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="6" vertex="1">
                     <mxGeometry x="1" width="20" height="22" relative="1" as="geometry">
                         <mxPoint x="-27" y="7" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="16" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=-0.017;entryY=0.622;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8" target="3">
+                <mxCell id="16" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=-0.017;entryY=0.622;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" source="8" target="3" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="585" y="180"/>
@@ -46,15 +46,15 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="8" value="Menu - Rendimento Escolar:&lt;br&gt;1- Exibir Rendimento de Aluno&lt;br&gt;2- Exibir Rendimento da Turma&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;9- Sair&lt;/span&gt;&lt;/div&gt;" style="html=1;dropTarget=0;align=left;verticalAlign=middle;" vertex="1" parent="1">
+                <mxCell id="8" value="Menu - Rendimento Escolar:&lt;br&gt;1- Exibir Rendimento de Aluno&lt;br&gt;2- Exibir Rendimento da Turma&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;9- Sair&lt;/span&gt;&lt;/div&gt;" style="html=1;dropTarget=0;align=left;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
                     <mxGeometry x="585" y="130" width="200" height="92" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="8">
+                <mxCell id="9" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="8" vertex="1">
                     <mxGeometry x="1" width="20" height="22" relative="1" as="geometry">
                         <mxPoint x="-27" y="7" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="17" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.003;entryY=0.678;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="10" target="6">
+                <mxCell id="17" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.003;entryY=0.678;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" source="10" target="6" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="510" y="390" as="targetPoint"/>
                         <mxPoint x="675" y="420" as="sourcePoint"/>
@@ -65,10 +65,10 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="10" value="Menu - Aluno:&lt;br&gt;1- Alterar nota A1&lt;br&gt;2- Alterar nota P1&lt;br&gt;2- Alterar nota A2&lt;br&gt;3- Alterar nota P2&lt;br&gt;4- Calcular Média do Aluno&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;(Exibir Rendimento)&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;9- Sair&lt;/span&gt;&lt;/div&gt;" style="html=1;dropTarget=0;align=left;verticalAlign=top;" vertex="1" parent="1">
+                <mxCell id="10" value="Menu - Aluno:&lt;br&gt;1- Alterar nota A1&lt;br&gt;2- Alterar nota P1&lt;br&gt;2- Alterar nota A2&lt;br&gt;3- Alterar nota P2&lt;br&gt;4- Calcular Média do Aluno&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;(Exibir Rendimento)&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;9- Sair&lt;/span&gt;&lt;/div&gt;" style="html=1;dropTarget=0;align=left;verticalAlign=top;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
                     <mxGeometry x="585" y="390" width="180" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="10">
+                <mxCell id="11" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="10" vertex="1">
                     <mxGeometry x="1" width="20" height="22" relative="1" as="geometry">
                         <mxPoint x="-27" y="7" as="offset"/>
                     </mxGeometry>
