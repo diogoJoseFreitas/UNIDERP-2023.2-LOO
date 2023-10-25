@@ -14,6 +14,8 @@ public class Aluno {
     private String situacao;
 
     private void atualizaMedia(){
+        // Função Responsável por Calcular a média e atualizar a situação do aluno.
+        // Sempre é chamada em casos de Atualização de algum valor de nota.
         this.media = (((notaA1+notaP1)/2) + ((notaA2+notaP2)/2))/2;
         if (this.media>=6) {
             this.situacao = "Aprovado";
@@ -81,18 +83,23 @@ public class Aluno {
         sc = new Scanner(System.in);
     }
     public Aluno(int codigo, String nome) {
+        // Construtor com apenas Código e Nome do Aluno (Solicitado no enunciado)
         sc = new Scanner(System.in);
         this.codigo = codigo;
         this.nome = nome;
     }
     public void imprime(){
+        // Mostra o valor de todos os atributos ordenados para facilitar a visualização
         System.out.println("| "+this.notaA1+" | "+this.notaP1+" | "+this.notaA2+" | "+this.notaP2+" | "+this.media+" | "+this.situacao+" | "+this.nome+" |");
     }
     public void status(){
+        // Realiza a função de imprimir o Cabeçalho separadamente para que a função 'imprime()' 
+        // tenha usabilidade em mais partes do código
         System.out.println("| A1 | P1 | A2 | P2 | MEDIA | SITUACAO | NOME |");
         this.imprime();
     }
     public void menuAlterarNotas(){
+        // Menu com opções de Alteração de Notas do Aluno e exibir a média e situação.
         String menu = "\n\n"+
         "1- Alterar nota A1\n"+ 
         "2- Alterar nota P1\n"+
