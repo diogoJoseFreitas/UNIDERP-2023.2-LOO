@@ -12,7 +12,7 @@ LOO - Atividade A2 - Atividade Enunciado
 
 **Orientações:**  
 Crie um programa em Linguagem Java, usando POO, que:
--  Implemente uma classe Aluno, contendo código(int), nome(string), nota A1(double), nota P1(double), nota A2(double), nota P2(double), média (double).
+-  Implemente uma classe `Aluno`, contendo código(int), nome(string), nota A1(double), nota P1(double), nota A2(double), nota P2(double), média (double).
 - Desenvolva uma função para exibir um menu com as opções:
     - Opção 1 – Gerenciar Alunos:
         - Opção 1 – Adicionar Aluno (informar apenas o código e o nome).
@@ -43,6 +43,9 @@ Crie um programa em Linguagem Java, usando POO, que:
 
 ---
 ## Desenvolvimento
+
+Abstraindo o funcionamento do sistema proposto é possível determinar bem os atributos de uma Classe denominada `Aluno` e a assossiação e manipulação de múltiplos Objetos desta Classe, como uma `Turma` é composta por vários `Alunos`.
+
 Ao analisar a estrutura do menu é possível abstrair os seguintes modos de interação com Objetos:
 >- Interações com Aluno:
 >     - Alterar nome ou nota.
@@ -57,5 +60,22 @@ Ao analisar a estrutura do menu é possível abstrair os seguintes modos de inte
 >- Relatório por Turma:
 >     - Rendimento Escolar Geral.
 
+Ao fazer essa análise de interação entre os Objetos é possível perceber algumas atividades que envolvem um Objeto `Aluno` pré-determinado para alterar valores de seus atributos e outras que iteram a `Turma` como um todo para extrair algumas informações de todos.
 
+---
+Para facilitar a visualização do sistema proposto foi elaborado um Diagrama UML demonstrando a relação entre `Aluno` e `Turma` e os fluxos seguidos entre os diferentes menus:
 
+![Diagrama de Casos UML](docs/projetoescola.drawio.png)
+
+## Projeto Java:
+
+Para contemplar todas as expecificações do sistema proposto foi implementado o projeto `FakeDB-escola` contendo as Classes `Aluno` e `Turma` dentro do pacote `com.uniderp.projetoescola`. E no arquivo principal `App.java` contem a implementação do menu principal e a instância de um Objeto da Classe `Turma`.
+
+Classe `Aluno`:
+<Visualização da Classe Aluno >
+
+Classe `Turma`:
+<Visualização da Classe Turma >
+
+Classe `App.java`:
+<Visualização de App,java >

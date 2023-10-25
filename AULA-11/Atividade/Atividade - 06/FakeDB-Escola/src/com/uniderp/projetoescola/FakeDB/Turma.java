@@ -69,10 +69,10 @@ public class Turma {
         int opcao;
         String menu = "\n\n"+
         "1- Adicionar Aluno\n"+
-        "2- Alterar Nome do Aluno\n"+
-        "3- Excluir aluno\n"+
+        "2- Alterar Nome de Aluno\n"+
+        "3- Excluir Aluno\n"+
         "4- Lista Todos\n"+
-        "5- Acessar notas de um Aluno\n"+
+        "5- Alterar notas de um Aluno\n"+
         "9- Voltar\n\n";
         do {        
             System.out.println(menu);
@@ -108,8 +108,8 @@ public class Turma {
         System.out.println("Exibindo menu...");
         int opcao;
         String menu = "\n\n"+
-        "1- Mostrar nota de aluno\n"+
-        "2- Mostrar media da turma\n"+
+        "1- Exibir Rendimento de Aluno\n"+
+        "2- Exibir Rendimento da Turma\n"+
         "9- Voltar\n\n";
         do {
             System.out.println(menu);
