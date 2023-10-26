@@ -150,6 +150,8 @@ public class Aluno {
     }
     @Override
     public String toString() {
+        // Utilizado na impressão de lista de alunos
+        // Sobrescrito para imprimir apenas o código e o nome do Aluno
         return "| " + codigo + " | " + nome + " |";
     }
     

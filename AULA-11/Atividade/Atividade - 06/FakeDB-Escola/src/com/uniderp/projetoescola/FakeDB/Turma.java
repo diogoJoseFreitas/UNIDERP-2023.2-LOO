@@ -14,6 +14,8 @@ public class Turma {
     }
 
     private void insereAluno(){
+        // Função para criar novo registro de Aluno para Lista da Turma
+        // Exige apenas código e nome para inserção
         int codigo;
         String nome;
         System.out.println("Informe o Nome do Aluno: ");
@@ -25,6 +27,9 @@ public class Turma {
     }
 
     private int getId(){
+        // Função que consulta através do código solicitado ao Cliente o Aluno a ser consultado
+        // Retorna o id de acesso ao Objeto de Aluno na lista de Turma
+        // Usado em várias funções ao longo do código
         int codigo;
         do {
             this.listarAlunos();
@@ -40,6 +45,8 @@ public class Turma {
     }
 
     private void alteraNome(){
+        // Utiliza getId() para encontrar Objeto a ser alterado e 
+        // altera o valor do atributo nome
         int id = this.getId();
         System.out.println("Nome Atual: "+ this.alunos.get(id).getNome());
         System.out.printf("Novo Nome: ");
@@ -48,12 +55,15 @@ public class Turma {
         System.out.println("\n\nRenomeado com Sucesso!");
     }
     private void removerAluno(){
+        // Utiliza getId() para encontrar Objeto a ser alterado e 
+        // remove Objeto da lista Turma
         int id = this.getId();
         System.out.println("Removendo "+ this.alunos.get(id).getNome() + "...");
         this.alunos.remove(id);
     }
 
     private void listarAlunos(){
+        // Itera a lista Turma e imprime seus Objetos
         System.out.println("Exibindo Lista... \n\n");
         System.out.println("| ID | Aluno |");
         for (Aluno aluno : alunos) {
@@ -62,8 +72,8 @@ public class Turma {
     }
 
     private void selecionarAluno(){
-        int id = getId();
-        this.alunos.get(id).menuAlterarNotas();
+        // Inicia o menu para alterar notas do Aluno
+        this.alunos.get(getId()).menuAlterarNotas();
     }
     public void menuGerenciarAlunos(){
         int opcao;

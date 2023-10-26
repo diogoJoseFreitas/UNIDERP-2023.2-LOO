@@ -71,11 +71,14 @@ Para facilitar a visualização do sistema proposto foi elaborado um Diagrama UM
 
 Para contemplar todas as expecificações do sistema proposto foi implementado o projeto `FakeDB-escola` contendo as Classes `Aluno` e `Turma` dentro do pacote `com.uniderp.projetoescola`. E no arquivo principal `App.java` contem a implementação do menu principal e a instância de um Objeto da Classe `Turma`.
 
-Classe `Aluno`:
-<Visualização da Classe Aluno >
+### Classe `Aluno`:
+Pertencente ao pacote `com.uniderp.projetoescola.models` é a Classe que define os métodos e atributos de Aluno em acordo com o Diagrama.  
+<https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/704c372207ac4f4f88d9de3b87061b5170a4b169/AULA-11/Atividade/Atividade%20-%2006/FakeDB-Escola/src/com/uniderp/projetoescola/models/Aluno.java#L1-L157>
 
 Classe `Turma`:
-<Visualização da Classe Turma >
+Pertencente ao pacote `com.uniderp.projetoescola.FakeDB` é a Classe que define os métodos que iteram ou interagem com um *ArrayList* de Alunos.  
+<https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/704c372207ac4f4f88d9de3b87061b5170a4b169/AULA-11/Atividade/Atividade%20-%2006/FakeDB-Escola/src/com/uniderp/projetoescola/FakeDB/Turma.java#L1-L140>
 
 Classe `App.java`:
-<Visualização de App,java >
+Define a instância de uma Turma e interage com ela por meio de um menu definido menu principal.  
+<https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/704c372207ac4f4f88d9de3b87061b5170a4b169/AULA-11/Atividade/Atividade%20-%2006/FakeDB-Escola/src/App.java#L1-L38>
