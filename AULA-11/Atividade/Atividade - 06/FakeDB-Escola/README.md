@@ -77,7 +77,7 @@ Pertencente ao pacote `com.uniderp.projetoescola.models` é a Classe que define 
 
 ### Classe `Turma`:  
 Pertencente ao pacote `com.uniderp.projetoescola.FakeDB` é a Classe que define os métodos que iteram ou interagem com um *ArrayList* de Alunos.  
-<https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/704c372207ac4f4f88d9de3b87061b5170a4b169/AULA-11/Atividade/Atividade%20-%2006/FakeDB-Escola/src/com/uniderp/projetoescola/FakeDB/Turma.java#L1-L140>
+<https://github.com/diogoJoseFreitas/UNIDERP-2023.2-LOO/blob/cd87a5ea241e3ab5f9b5fd3a195d8fcead865edf/AULA-11/Atividade/Atividade%20-%2006/FakeDB-Escola/src/com/uniderp/projetoescola/FakeDB/Turma.java#L1-L174>
 
 ### Classe `App.java`:  
 Define a instância de uma Turma e interage com ela por meio de um menu definido menu principal.  
