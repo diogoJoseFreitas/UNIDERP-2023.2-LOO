@@ -31,9 +31,13 @@ public class Turma {
         // Retorna o id de acesso ao Objeto de Aluno na lista de Turma
         // Usado em várias funções ao longo do código
         int codigo;
+        if (this.alunos.isEmpty()) {
+            System.out.println("Lista vazia!");
+            return -1;   
+        }
         do {
             this.listarAlunos();
-            System.out.println("Indique o ID do Aluno desejado: ");
+            System.out.println("Indique o ID do Aluno desejado: (-1 para voltar)");
             codigo = sc.nextInt();
             int id = 0;
             for (Aluno aluno : this.alunos) {
@@ -44,36 +48,54 @@ public class Turma {
         } while (true);
     }
 
+    private boolean verificaId(int i){
+        if (i<this.alunos.size() && i>=0) {
+            return true;
+        }else{ return false;}
+    }
+
     private void alteraNome(){
         // Utiliza getId() para encontrar Objeto a ser alterado e 
         // altera o valor do atributo nome
         int id = this.getId();
-        System.out.println("Nome Atual: "+ this.alunos.get(id).getNome());
-        System.out.printf("Novo Nome: ");
-        this.alunos.get(id).setNome(sc.next());
-        sc.nextLine();
-        System.out.println("\n\nRenomeado com Sucesso!");
+        if (verificaId(id)) {
+            System.out.println("Nome Atual: "+ this.alunos.get(id).getNome());
+            System.out.printf("Novo Nome: ");
+            this.alunos.get(id).setNome(sc.next());
+            sc.nextLine();
+            System.out.println("\n\nRenomeado com Sucesso!");
+            
+        }
     }
     private void removerAluno(){
         // Utiliza getId() para encontrar Objeto a ser alterado e 
         // remove Objeto da lista Turma
         int id = this.getId();
-        System.out.println("Removendo "+ this.alunos.get(id).getNome() + "...");
-        this.alunos.remove(id);
+        if (verificaId(id)) {
+            System.out.println("Removendo "+ this.alunos.get(id).getNome() + "...");
+            this.alunos.remove(id);
+        }
     }
 
     private void listarAlunos(){
         // Itera a lista Turma e imprime seus Objetos
-        System.out.println("Exibindo Lista... \n\n");
-        System.out.println("| ID | Aluno |");
-        for (Aluno aluno : alunos) {
-            System.out.println(aluno);
+        if (this.alunos.isEmpty()) {
+            System.out.println("Lista vazia!");
+        }else{
+            System.out.println("Exibindo Lista... \n\n");
+            System.out.println("| ID | Aluno |");
+            for (Aluno aluno : alunos) {
+                System.out.println(aluno);
+            }
         }
     }
 
     private void selecionarAluno(){
         // Inicia o menu para alterar notas do Aluno
-        this.alunos.get(getId()).menuAlterarNotas();
+        int id = this.getId();
+        if (verificaId(id)) {
+        this.alunos.get(id).menuAlterarNotas();            
+        }
     }
     public void menuGerenciarAlunos(){
         int opcao;
@@ -126,8 +148,10 @@ public class Turma {
             opcao = sc.nextInt();
             switch (opcao) {
                 case 1:
-                    int id = getId();    
-                    this.alunos.get(id).status();
+                    int id = getId();
+                    if (verificaId(id)) {
+                    this.alunos.get(id).status();                        
+                    }
                     
                     break;
                 case 2:
